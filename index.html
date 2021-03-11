@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+
+	<style type="text/css">
+		body{
+			width: 75%;
+			margin: 0 auto;
+			background-image: url('IMAGENS/site-background.jpg');
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+
+		div {
+			width: 50%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		a {
+			text-decoration: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<form class="box" action="metodos.php" method="POST">
+			<h2 class="h2-login">Login</h2>
+
+				<input type="email" name="login" id="login" required="" autocomplete="off" placeholder="Email">
+				
+				<input type="password" name="senha" id="senha" required="" autocomplete="off" placeholder="Senha">
+				
+				<button type="submit" name="entrar" value="entrar">Entrar</button>
+				<br>
+				<p>Não tem um login? <a href="registro.html">Cadastre-se!</a></p>
+		</form>
+	</div>
+</body>
+</html>

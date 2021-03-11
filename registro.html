@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo2.css">
+
+    <style type="text/css">
+        body{
+            width: 75%;
+            margin: 0 auto;
+            background-image: url('IMAGENS/site-background.jpg');
+            background-attachment: fixed;
+            background-size: 100%;
+            }
+
+        div {
+            width: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+
+        a {
+	        text-decoration: none;
+          }
+
+        select {
+            width: 100px;
+            height: 45px;
+            border-radius: 24px;
+            border: 1.5px solid #8080ff;
+            font-family: sans-serif;
+            margin: 0;
+            background: none;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form class="box" action="metodos.php" method="POST">
+            <h2>Registro</h2>
+
+            <input type="text" name="nome" id="nome" required="" autocomplete="off" placeholder="Nome">
+
+            <input type="text" name="endereco" id="endereco" required="" autocomplete="nope" placeholder="Endereço">
+
+            <input type="tel" name="Rtel" id="Rtel" required="" autocomplete="off" placeholder="Telefone">
+
+            <input type="email" name="Rlogin" id="Rlogin" required="" autocomplete="off" placeholder="Email">
+
+            <input type="password" name="Rsenha" id="Rsenha" required="" autocomplete="off" placeholder="Senha">
+
+            <button type="submit" name="cadastrar" value="cadastrar">Entrar</button>
+
+            <a href="index.html">Já tenho cadastro</a>
+
+        </form>
+    </div>
+</body>
+</html>
