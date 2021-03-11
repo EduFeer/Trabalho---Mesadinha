@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="197bb4b0-e708-42d4-a466-4e7fda90ab9c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1kPwwuNLM02F5gTRGfJroPHidIW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\mesadinha\estilo" />
+      <recent name="C:\wamp64\www\mesadinha" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\mesadinha\estilo" />
+      <recent name="C:\Users\manda\Homes\Trabalho Interdisciplinar Técnico\site_mesadinha\mesadinha\classes" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="197bb4b0-e708-42d4-a466-4e7fda90ab9c" name="Default Changelist" comment="" />
+      <created>1605615778943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605615778943</updated>
+      <workItem from="1605615781419" duration="2887000" />
+      <workItem from="1605619212346" duration="305000" />
+      <workItem from="1605619822205" duration="305000" />
+      <workItem from="1605704379138" duration="416000" />
+      <workItem from="1606213520219" duration="3554000" />
+      <workItem from="1606230735486" duration="57000" />
+      <workItem from="1606426883815" duration="8024000" />
+      <workItem from="1606472847240" duration="12658000" />
+      <workItem from="1606519074770" duration="29884000" />
+      <workItem from="1606618885006" duration="2455000" />
+      <workItem from="1606621513204" duration="50000" />
+      <workItem from="1606621566770" duration="902000" />
+      <workItem from="1606655552075" duration="6360000" />
+      <workItem from="1606696954904" duration="2607000" />
+      <workItem from="1606699620177" duration="6675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605620048175">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="550" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1605620048175" />
+    <state x="848" y="203" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606430523179">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="848" y="203" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1606430523179" />
+    <state x="738" y="126" key="FileChooserDialogImpl" timestamp="1606699616351">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="738" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606699616351" />
+    <state x="357" y="107" key="NewPhpClassDialog" timestamp="1606435893751">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="357" y="107" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1606435893751" />
+    <state x="876" y="307" key="NewPhpFileDialog" timestamp="1606486613610">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="876" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1606486613610" />
+    <state x="652" y="0" width="839" height="775" key="dock-window-1" timestamp="1606697650331">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="652" y="0" width="839" height="775" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1606697650331" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1606619578378">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1606619578378" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/classes/Usuario.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
