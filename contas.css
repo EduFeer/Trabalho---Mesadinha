@@ -1,0 +1,331 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0b0b0b;
+}
+
+.home-icon {
+  border-radius: 6px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  width: auto;
+  height: 70px;
+  position: absolute;
+  margin: 15px;
+  float: left;
+  left: 0;
+  background: #e6e6ff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  text-align: center;
+  padding: 15px;
+}
+
+li {
+  display: inline-block;
+  border-style: revert;
+  border-color: cornflowerblue;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #0d0d0d;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 0 20px;
+  border-radius: 6px;
+}
+
+.home-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #0b0b0b;
+  transition: width 0.3s;
+}
+
+.home-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+li a:hover {
+  background-color: lightgrey;
+  transition: 0.4s;
+}
+
+.home-icon:hover {
+  background-color: lightgrey;
+  transition: 0.4s;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+.dropbtn {
+  background-color: #e6e6ff;
+  transition: 0.4s;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  color: #0d0d0d;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 0 20px;
+  border-radius: 6px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e6e6ff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightgrey;
+  transition: 0.4s;
+}
+
+.dropbtn::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #0b0b0b;
+  transition: width 0.3s;
+}
+
+.dropbtn:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+.dropbtn2 {
+  background-color: #e6e6ff;
+  transition: 0.4s;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  color: #0d0d0d;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 0 20px;
+  border-radius: 6px;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #e6e6ff;
+  min-width: 270px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  background-color: lightgrey;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+  background-color: lightgrey;
+  transition: 0.4s;
+}
+
+.dropbtn2::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #0b0b0b;
+  transition: width 0.3s;
+}
+
+.dropbtn2:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+article {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+article form {
+  width: 450px;
+  height: 380px;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e6e6ff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  text-align: center;
+}
+
+input {
+  border: none;
+}
+
+button {
+  padding: 14px 40px;
+  border-radius: 8px;
+  border-style: double;
+  color: #4d4d4d;
+  border-color: #8080ff;
+  background: none;
+}
+
+article form input[type="text"] {
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #8080ff;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: grey;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+article form input[type="text"]:focus {
+  width: 300px;
+  border-color: #66ccff;
+}
+
+article form button[type="submit"] {
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid #8080ff;
+  padding: 14px 40px;
+  outline: none;
+  color: grey;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+article form button[type="submit"]:hover {
+  background: #ccccff;
+}
+
+article form h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  font-weight: 600;
+  text-decoration-color: #8080ff;
+  text-shadow: 2px 2px 5px #8080ff;
+  margin-top: 20px;
+}
+
+article form label {
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  font-weight: 200;
+  text-decoration-color: #8080ff;
+  text-shadow: 2px 2px 5px #8080ff;
+}

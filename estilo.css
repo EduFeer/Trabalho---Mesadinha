@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+.h2-login {
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+  text-decoration-color: #8080ff;
+  text-shadow: 2px 2px 5px #8080ff;
+}
+
+input {
+  border: none;
+}
+
+.box {
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #e6e6ff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  text-align: center;
+}
+.box input[type="email"],
+.box input[type="password"] {
+  background: none;
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  border: 2px solid #8080ff;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: grey;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type="email"]:focus,
+.box input[type="password"]:focus {
+  width: 300px;
+  border-color: #66ccff;
+}
+
+.box button[type="submit"] {
+  text-align: center;
+  border: 2px solid #8080ff;
+  padding: 14px 40px;
+  outline: none;
+  color: grey;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  background: none;
+  margin-bottom: 20px;
+}
+
+.box button[type="submit"]:hover {
+  background: #ccccff;
+}
